@@ -6,11 +6,12 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "generate-tw": "tailwindcss-classnames -i tailwind.config.cjs -o src/classnames.ts"
+    "generate-tw": "tailwindcss-classnames -i tailwind.config.cjs -o src/shared/ui/classnames.ts"
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "6"
   },
   "devDependencies": {
     "@types/react": "^18.0.17",

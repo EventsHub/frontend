@@ -62,7 +62,9 @@ export type TBackgroundColor =
   | 'bg-white'
   | 'bg-dark'
   | 'bg-dark-light'
+  | 'bg-gray'
   | 'bg-primary'
+  | 'bg-red'
 
 export type TBackgroundPosition =
   | 'bg-bottom'
@@ -101,9 +103,15 @@ export type TGradientColorStops =
   | 'from-dark-light'
   | 'via-dark-light'
   | 'to-dark-light'
+  | 'from-gray'
+  | 'via-gray'
+  | 'to-gray'
   | 'from-primary'
   | 'via-primary'
   | 'to-primary'
+  | 'from-red'
+  | 'via-red'
+  | 'to-red'
 
 export type TBackgrounds =
   | TBackgroundAttachment
@@ -156,11 +164,21 @@ export type TBorderColor =
   | 'border-r-dark-light'
   | 'border-b-dark-light'
   | 'border-l-dark-light'
+  | 'border-gray'
+  | 'border-t-gray'
+  | 'border-r-gray'
+  | 'border-b-gray'
+  | 'border-l-gray'
   | 'border-primary'
   | 'border-t-primary'
   | 'border-r-primary'
   | 'border-b-primary'
   | 'border-l-primary'
+  | 'border-red'
+  | 'border-t-red'
+  | 'border-r-red'
+  | 'border-b-red'
+  | 'border-l-red'
 
 export type TBorderOpacity =
   | 'border-opacity-0'
@@ -303,7 +321,9 @@ export type TDivideColor =
   | 'divide-white'
   | 'divide-dark'
   | 'divide-dark-light'
+  | 'divide-gray'
   | 'divide-primary'
+  | 'divide-red'
 
 export type TDivideOpacity =
   | 'divide-opacity-0'
@@ -340,7 +360,9 @@ export type TRingColor =
   | 'ring-white'
   | 'ring-dark'
   | 'ring-dark-light'
+  | 'ring-gray'
   | 'ring-primary'
+  | 'ring-red'
 
 export type TRingWidth =
   | 'ring-0'
@@ -373,7 +395,9 @@ export type TRingOffsetColor =
   | 'ring-offset-white'
   | 'ring-offset-dark'
   | 'ring-offset-dark-light'
+  | 'ring-offset-gray'
   | 'ring-offset-primary'
+  | 'ring-offset-red'
 
 export type TRingOffsetWidth =
   | 'ring-offset-0'
@@ -400,7 +424,9 @@ export type TOutlineColor =
   | 'outline-white'
   | 'outline-dark'
   | 'outline-dark-light'
+  | 'outline-gray'
   | 'outline-primary'
+  | 'outline-red'
 
 export type TBorders =
   | TBorderStyle
@@ -484,7 +510,9 @@ export type TBoxShadowColor =
   | 'shadow-white'
   | 'shadow-dark'
   | 'shadow-dark-light'
+  | 'shadow-gray'
   | 'shadow-primary'
+  | 'shadow-red'
 
 export type TOpacity =
   | 'opacity-0'
@@ -1840,7 +1868,9 @@ export type TCaretColor =
   | 'caret-white'
   | 'caret-dark'
   | 'caret-dark-light'
+  | 'caret-gray'
   | 'caret-primary'
+  | 'caret-red'
 
 export type TWillChange =
   | 'will-change-auto'
@@ -1852,7 +1882,9 @@ export type TAccentColor =
   | 'accent-white'
   | 'accent-dark'
   | 'accent-dark-light'
+  | 'accent-gray'
   | 'accent-primary'
+  | 'accent-red'
   | 'accent-auto'
 
 export type TScrollPadding =
@@ -3077,13 +3109,17 @@ export type TFill =
   | 'fill-white'
   | 'fill-dark'
   | 'fill-dark-light'
+  | 'fill-gray'
   | 'fill-primary'
+  | 'fill-red'
 
 export type TStroke =
   | 'stroke-white'
   | 'stroke-dark'
   | 'stroke-dark-light'
+  | 'stroke-gray'
   | 'stroke-primary'
+  | 'stroke-red'
 
 export type TStrokeWidth =
   | 'stroke-0'
@@ -3398,7 +3434,9 @@ export type TPlaceholderColor =
   | 'placeholder-white'
   | 'placeholder-dark'
   | 'placeholder-dark-light'
+  | 'placeholder-gray'
   | 'placeholder-primary'
+  | 'placeholder-red'
 
 export type TPlaceholderOpacity =
   | 'placeholder-opacity-0'
@@ -3421,7 +3459,9 @@ export type TTextColor =
   | 'text-white'
   | 'text-dark'
   | 'text-dark-light'
+  | 'text-gray'
   | 'text-primary'
+  | 'text-red'
 
 export type TTextOpacity =
   | 'text-opacity-0'
@@ -3484,7 +3524,9 @@ export type TTextDecorationColor =
   | 'decoration-white'
   | 'decoration-dark'
   | 'decoration-dark-light'
+  | 'decoration-gray'
   | 'decoration-primary'
+  | 'decoration-red'
 
 export type TTextDecorationThickness =
   | 'decoration-0'

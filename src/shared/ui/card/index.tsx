@@ -1,13 +1,13 @@
 import * as styles from "./styles";
 import { ReactSVG } from "react-svg";
 
-interface CardProps {
+interface Props {
   img: string;
   title: string;
   location: string;
 }
 
-const Card: React.FC<CardProps> = ({ img, title, location }) => {
+const Card = ({ img, title, location }: Props) => {
   return (
     <div className={styles.card}>
       <div className={styles.imgWrapper}>

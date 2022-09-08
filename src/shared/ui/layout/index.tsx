@@ -1,10 +1,10 @@
 import * as styles from "./styles";
 
-type LayoutProps = {
+interface Props {
   children: React.ReactNode;
-};
+}
 
-const Layout: React.FC<LayoutProps> = ({ children }) => {
+const Layout = ({ children }: Props) => {
   return <div className={styles.layout}>{children}</div>;
 };
 

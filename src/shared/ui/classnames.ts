@@ -59,6 +59,7 @@ export type TBackgroundOpacity =
   | 'bg-opacity-100'
 
 export type TBackgroundColor =
+  | 'bg-transparent'
   | 'bg-white'
   | 'bg-dark'
   | 'bg-dark-light'
@@ -94,6 +95,9 @@ export type TBackgroundImage =
   | 'bg-gradient-to-tl'
 
 export type TGradientColorStops =
+  | 'from-transparent'
+  | 'via-transparent'
+  | 'to-transparent'
   | 'from-white'
   | 'via-white'
   | 'to-white'
@@ -149,6 +153,11 @@ export type TOutlineStyle =
   | 'outline-none'
 
 export type TBorderColor =
+  | 'border-transparent'
+  | 'border-t-transparent'
+  | 'border-r-transparent'
+  | 'border-b-transparent'
+  | 'border-l-transparent'
   | 'border-white'
   | 'border-t-white'
   | 'border-r-white'
@@ -318,6 +327,7 @@ export type TBorderWidth =
   | 'border'
 
 export type TDivideColor =
+  | 'divide-transparent'
   | 'divide-white'
   | 'divide-dark'
   | 'divide-dark-light'
@@ -357,6 +367,7 @@ export type TDivideWidth =
   | 'divide-y-reverse'
 
 export type TRingColor =
+  | 'ring-transparent'
   | 'ring-white'
   | 'ring-dark'
   | 'ring-dark-light'
@@ -392,6 +403,7 @@ export type TRingOpacity =
   | 'ring-opacity'
 
 export type TRingOffsetColor =
+  | 'ring-offset-transparent'
   | 'ring-offset-white'
   | 'ring-offset-dark'
   | 'ring-offset-dark-light'
@@ -421,6 +433,7 @@ export type TOutlineWidth =
   | 'outline-8'
 
 export type TOutlineColor =
+  | 'outline-transparent'
   | 'outline-white'
   | 'outline-dark'
   | 'outline-dark-light'
@@ -507,6 +520,7 @@ export type TBoxShadow =
   | 'shadow-none'
 
 export type TBoxShadowColor =
+  | 'shadow-transparent'
   | 'shadow-white'
   | 'shadow-dark'
   | 'shadow-dark-light'
@@ -1865,6 +1879,7 @@ export type TCursor =
   | 'cursor-zoom-out'
 
 export type TCaretColor =
+  | 'caret-transparent'
   | 'caret-white'
   | 'caret-dark'
   | 'caret-dark-light'
@@ -1879,6 +1894,7 @@ export type TWillChange =
   | 'will-change-transform'
 
 export type TAccentColor =
+  | 'accent-transparent'
   | 'accent-white'
   | 'accent-dark'
   | 'accent-dark-light'
@@ -3106,6 +3122,7 @@ export type TSizing =
   | TMaxHeight
 
 export type TFill =
+  | 'fill-transparent'
   | 'fill-white'
   | 'fill-dark'
   | 'fill-dark-light'
@@ -3114,6 +3131,7 @@ export type TFill =
   | 'fill-red'
 
 export type TStroke =
+  | 'stroke-transparent'
   | 'stroke-white'
   | 'stroke-dark'
   | 'stroke-dark-light'
@@ -3431,6 +3449,7 @@ export type TListStyleType =
   | 'list-decimal'
 
 export type TPlaceholderColor =
+  | 'placeholder-transparent'
   | 'placeholder-white'
   | 'placeholder-dark'
   | 'placeholder-dark-light'
@@ -3456,6 +3475,7 @@ export type TPlaceholderOpacity =
   | 'placeholder-opacity-100'
 
 export type TTextColor =
+  | 'text-transparent'
   | 'text-white'
   | 'text-dark'
   | 'text-dark-light'
@@ -3521,6 +3541,7 @@ export type TTextIndent =
   | 'indent-3.5'
 
 export type TTextDecorationColor =
+  | 'decoration-transparent'
   | 'decoration-white'
   | 'decoration-dark'
   | 'decoration-dark-light'

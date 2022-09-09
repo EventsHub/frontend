@@ -12,7 +12,7 @@ export const button = classnames(
   width("w-full"),
   backgroundColor("bg-primary"),
   borderRadius("rounded-xl"),
-  spacing("px-10", "py-4"),
+  spacing("px-10", "py-2"),
   textColor("text-white"),
   fontWeight("font-semibold")
 );

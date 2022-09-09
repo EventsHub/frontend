@@ -1,9 +1,15 @@
 import * as styles from "./styles";
 
-const Header = () => {
+interface Props {
+  title: string;
+  element?: React.ReactNode;
+}
+
+const Header = ({ title, element }: Props) => {
   return (
     <header className={styles.header}>
-      <h1 className={styles.title}>EventsHub</h1>
+      <h1 className={styles.title}>{title}</h1>
+      <div>{element}</div>
     </header>
   );
 };

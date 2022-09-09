@@ -7,11 +7,15 @@ import {
   textColor,
   fontSize,
   fontWeight,
+  justifyContent,
+  alignItems,
 } from "../classnames";
 
 export const header = classnames(
   backgroundColor("bg-dark-light"),
   display("flex"),
+  alignItems("items-center"),
+  justifyContent("justify-between"),
   spacing("px-10", "py-6"),
   borderRadius("rounded-b-xl")
 );

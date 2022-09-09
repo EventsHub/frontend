@@ -16,7 +16,7 @@ import {
 
 export const wrapper = classnames(
   width("w-full"),
-  height("h-96"),
+  height("h-20"),
   borderWidth("border-2"),
   borderStyle("border-dashed"),
   borderRadius("rounded-xl"),
@@ -32,4 +32,4 @@ export const dropzone = classnames(
   justifyContent("justify-center")
 );
 
-export const label = classnames(fontSize("text-xl"), textColor("text-white"));
+export const label = classnames(fontSize("text-lg"), textColor("text-white"));

@@ -19,6 +19,7 @@ import {
   fontWeight,
   textColor,
   maxWidth,
+  layout,
 } from "../classnames";
 
 export const overlay = classnames(
@@ -30,7 +31,8 @@ export const overlay = classnames(
   inset("top-0", "left-0"),
   backdropBrightness("backdrop-brightness-50"),
   backdropBlur("backdrop-blur-sm"),
-  overflow("overflow-hidden")
+  overflow("overflow-hidden"),
+  layout("z-20")
 );
 
 export const cancel = classnames(

@@ -2,7 +2,7 @@ import * as styles from "./styles";
 
 interface Props {
   value: string;
-  placeholder: string;
+  placeholder?: string;
   onChange(e: React.ChangeEvent<HTMLInputElement>): void;
 }
 

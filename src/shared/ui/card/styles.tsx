@@ -23,16 +23,12 @@ export const card = classnames(
   flexDirection("flex-col"),
   gap("gap-4"),
   spacing("px-4", "py-4"),
-  borderWidth("border"),
+  borderWidth("border-2"),
   borderColor("border-dark-light"),
   borderRadius("rounded-2xl")
 );
 
-export const imgWrapper = classnames(
-  width("w-full"),
-  maxWidth("max-w-sm"),
-  position("relative")
-);
+export const imgWrapper = classnames(width("w-full"), position("relative"));
 
 export const img = classnames(borderRadius("rounded-2xl"), width("w-full"));
 

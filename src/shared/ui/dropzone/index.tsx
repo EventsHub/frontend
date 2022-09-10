@@ -6,13 +6,10 @@ import * as styles from "./styles";
 interface Props {
   label: string;
   maxFiles?: number;
+  onDrop: (file: File[]) => void;
 }
 
-const Dropzone = ({ label, maxFiles = 1 }: Props) => {
-  const onDrop = useCallback((acceptedFiles: File[]) => {
-    return acceptedFiles;
-  }, []);
-
+const Dropzone = ({ label, maxFiles = 1, onDrop }: Props) => {
   const { getRootProps, getInputProps } = useDropzone({
     onDrop,
     accept: {

@@ -2,6 +2,7 @@ import { useEffect } from "react";
 
 import Grid from "../../shared/ui/grid";
 import Card from "../../shared/ui/card";
+import Empty from "../../shared/ui/empty";
 
 import useCardStore from "../../stores/cardStore";
 
@@ -13,6 +14,8 @@ const Home = () => {
     fetchData();
   }, []);
 
+  if (events.length === 0)
+    return <Empty src="/images/empty.svg" label="No events found..." />;
   return (
     <Grid>
       {events &&

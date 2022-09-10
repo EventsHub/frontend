@@ -1,12 +1,12 @@
 import {
   classnames,
-  height,
+  minHeight,
   width,
   backgroundColor,
 } from "../shared/ui/classnames";
 
 export const app = classnames(
-  height("h-screen"),
+  minHeight("min-h-screen"),
   width("w-screen"),
   backgroundColor("bg-dark")
 );

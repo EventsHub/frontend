@@ -16,7 +16,7 @@ export const header = classnames(
   display("flex"),
   alignItems("items-center"),
   justifyContent("justify-between"),
-  spacing("px-10", "py-6"),
+  spacing("px-10", "py-4"),
   borderRadius("rounded-b-xl")
 );
 
